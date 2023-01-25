@@ -1,38 +1,32 @@
 .App {
   text-align: center;
+  height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#root {
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+div {
+  display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.country {
+  text-align: center;
+  padding-top: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.name {
+  font-size: 1.2em;
+  font-weight: 700;
+  margin-bottom: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.medals {
+  text-transform: capitalize;
+}
+
+.medals button {
+  margin-left: 10px;
+  width: 25px;
 }

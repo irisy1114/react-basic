@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/irisy1114/react-basic/static/css/main.3695e137.css",
-    "main.js": "/irisy1114/react-basic/static/js/main.2f0b5a35.js",
-    "static/js/787.293c2eec.chunk.js": "/irisy1114/react-basic/static/js/787.293c2eec.chunk.js",
-    "index.html": "/irisy1114/react-basic/index.html",
-    "main.3695e137.css.map": "/irisy1114/react-basic/static/css/main.3695e137.css.map",
-    "main.2f0b5a35.js.map": "/irisy1114/react-basic/static/js/main.2f0b5a35.js.map",
-    "787.293c2eec.chunk.js.map": "/irisy1114/react-basic/static/js/787.293c2eec.chunk.js.map"
+    "main.css": "/react-gh-pages/static/css/main.3695e137.css",
+    "main.js": "/react-gh-pages/static/js/main.c2821c5b.js",
+    "static/js/787.293c2eec.chunk.js": "/react-gh-pages/static/js/787.293c2eec.chunk.js",
+    "index.html": "/react-gh-pages/index.html",
+    "main.3695e137.css.map": "/react-gh-pages/static/css/main.3695e137.css.map",
+    "main.c2821c5b.js.map": "/react-gh-pages/static/js/main.c2821c5b.js.map",
+    "787.293c2eec.chunk.js.map": "/react-gh-pages/static/js/787.293c2eec.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3695e137.css",
-    "static/js/main.2f0b5a35.js"
+    "static/js/main.c2821c5b.js"
   ]
 }

@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/irisy1114/react-basic/static/css/main.3695e137.css",
+    "main.js": "/irisy1114/react-basic/static/js/main.2f0b5a35.js",
+    "static/js/787.293c2eec.chunk.js": "/irisy1114/react-basic/static/js/787.293c2eec.chunk.js",
+    "index.html": "/irisy1114/react-basic/index.html",
+    "main.3695e137.css.map": "/irisy1114/react-basic/static/css/main.3695e137.css.map",
+    "main.2f0b5a35.js.map": "/irisy1114/react-basic/static/js/main.2f0b5a35.js.map",
+    "787.293c2eec.chunk.js.map": "/irisy1114/react-basic/static/js/787.293c2eec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3695e137.css",
+    "static/js/main.2f0b5a35.js"
+  ]
+}

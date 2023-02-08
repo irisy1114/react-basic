@@ -4,8 +4,8 @@ class NewCountry extends Component {
 
     promptDialog = () => { 
         let newCountry = window.prompt('Enter country name', '');
-        if(newCountry==="" || newCountry ===null) {
-            alert("Country name can't be empty");
+        if(newCountry ===null || newCountry.trim()==="" ) {
+            // alert("Country name can't be empty");
             return;
         }else
             this.props.onAdd(newCountry);

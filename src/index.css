@@ -11,3 +11,26 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App-header {
+  background-color: #000;
+  color: #fff;
+  opacity: .85;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.badge {
+  margin-left: 10px;
+  display: inline-block;
+  min-width: 16px;
+  height: 16px;
+  padding: 3px;
+  border-radius: 4px;
+  font-size: 12px;
+  text-align: center;
+  background: #08924d;
+  color: #fff;
+}

@@ -1,27 +1,26 @@
 import React, { Component } from 'react';
+import Medal from './Medal';
 
 class Country extends Component {
-    state = {
-       goldMedalCount: this.props.country.goldMedalCount
-    }
-    handleIncrement = () => {
-        this.setState({ goldMedalCount: this.state.goldMedalCount + 1 })
-    }
-    handleDecrement = () => {
-        this.setState({ goldMedalCount: this.state.goldMedalCount - 1 })
-    }
+
+
     render() { 
-        const { country } = this.props;
+        const { id, name, gold, silver, bronze, onIncrement, onDecrement, onDelete } = this.props;
         return (
             <div className="country">
                 <div className="name">
-                    { country.name }
+                    { name }
+                    <span className="badge"> { gold + silver + bronze }</span>
                 </div>
-                <div className="medals">
-                    gold medals:  { this.state.goldMedalCount }
-                    <button onClick={ this.handleIncrement }>+</button>
-                    <button onClick={ this.handleDecrement } disabled={this.state.goldMedalCount === 0 ? true : false}>-</button>
-                </div>
+
+                <Medal id={ id } medal={"gold"} count={ gold } onIncrement={ onIncrement } onDecrement={ onDecrement }>
+                </Medal>
+                <Medal id={ id } medal={"silver"} count={ silver } onIncrement={ onIncrement } onDecrement={ onDecrement }>
+                </Medal>
+                <Medal id={ id } medal={"bronze"} count={ bronze } onIncrement={ onIncrement } onDecrement={ onDecrement }>
+                </Medal>
+                <button type='button' id={ id } onClick={ () => onDelete(id) }>Delete</button>
+        
                 <hr></hr>
             </div>
         );

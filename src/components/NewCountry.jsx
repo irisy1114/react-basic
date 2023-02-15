@@ -1,23 +1,21 @@
-import React, { Component } from "react";
+import React from "react";
 
-class NewCountry extends Component {
-
-    promptDialog = () => { 
+const NewCountry = (props) => {
+    const { onAdd } = props;
+    const promptDialog = () => { 
         let newCountry = window.prompt('Enter country name', '');
         if(newCountry ===null || newCountry.trim()==="" ) {
             // alert("Country name can't be empty");
             return;
         }else
-            this.props.onAdd(newCountry);
+            onAdd(newCountry);
     }
+    return ( 
+        <div className="NewCountry">
+            <button onClick={ promptDialog } type="button">New Country</button>
+        </div>
+    )        
 
-    render() {
-        return ( 
-            <div className="NewCountry">
-                <button onClick={ this.promptDialog } type="button">New Country</button>
-            </div>
-        )        
-    }
 }
 
 export default NewCountry;

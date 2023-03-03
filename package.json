@@ -4,6 +4,7 @@
   "homepage": "https://irisy1114.github.io/react-basic",
   "private": true,
   "dependencies": {
+    "@microsoft/signalr": "^5.0.9",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
